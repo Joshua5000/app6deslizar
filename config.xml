@@ -15,7 +15,6 @@ Aplicacion que realiza el swipe o deslizamiento en el dispositivo
 Jonathan Joshua Colotl Cortes
 </author>
 
-
 <!--personaliza la aplicacion y plataforma -->
 <preference name="orientation"    value="default"/>
 <!--preference name="orientation"   value="portrait"/>
@@ -34,7 +33,7 @@ Jonathan Joshua Colotl Cortes
 <!-- <plugin name="cordova-plugin-geolocation" source="npm"/> -->
 
 <!--Para accesar a paginas en internet-->
-<allow-internet href="https://*/*"/>
+<allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
 <allow-intent href="http://*/*"/>
 <acces origin="http://*/*"/>
